@@ -18,22 +18,29 @@
 
 <Dialog>
 	<DialogTrigger>
-		<Card
-			class="flex aspect-square flex-col justify-end bg-cover bg-center bg-no-repeat"
-			style={`background-image:url("${item.src}")`}
-		>
+		<Card class="flex flex-col justify-end overflow-hidden">
+			<div class="relative">
+				<img
+					src={item.src}
+					alt={item.label}
+					class="w-full h-auto max-h-48 object-contain bg-gray-100 dark:bg-gray-800"
+				/>
+			</div>
 			<Separator />
 			<CardFooter class="rounded-b-md bg-[#00000099] pt-4 text-white backdrop-blur-sm"
 				>{item.label}</CardFooter
 			>
 		</Card>
 	</DialogTrigger>
-	<DialogContent class="flex min-h-[70%] min-w-[70%] flex-col">
+	<DialogContent class="flex max-h-[90vh] max-w-[90vw] flex-col">
 		<DialogTitle>{item.label}</DialogTitle>
-		<div
-			class="flex-1 bg-cover bg-center bg-no-repeat"
-			style={`background-image: url("${item.src}")`}
-		></div>
+		<div class="flex-1 flex items-center justify-center p-4 bg-gray-100 dark:bg-gray-800 min-h-0 overflow-hidden">
+			<img
+				src={item.src}
+				alt={item.label}
+				class="max-w-full max-h-full w-auto h-auto object-contain"
+			/>
+		</div>
 		<DialogFooter>
 			<DialogClose>
 				<Button>Close</Button>
