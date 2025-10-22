@@ -1,0 +1,642 @@
+{
+	"personal": {
+		"firstName": "Davi",
+		"lastName": "Sales",
+		"title": "Lead Software Engineer",
+		"pronouns": "Ele/Dele",
+		"location": "Lisbon, Portugal",
+		"bio": "Just your regular Software Engineer living the dream",
+		"suffix": "Full Stack Developer | DevOps Enthusiast | Rust Lover"
+	},
+	"hero": {
+		"title": "Davi Sales,",
+		"description": "Full-stack engineer passionate about building scalable applications, infrastructure automation, and solving complex technical challenges. Currently leading software development at SailThrough English.",
+		"socialLinks": [
+			{
+				"label": "GitHub",
+				"href": "https://github.com/aScriptingOreo",
+				"icon": "/icons/cib-github.svg"
+			},
+			{
+				"label": "LinkedIn",
+				"href": "https://linkedin.com/in/aScriptingOreo",
+				"icon": "/icons/cib-linkedin.svg"
+			},
+			{
+				"label": "Email",
+				"href": "mailto:ksls56@hotmail.com",
+				"icon": "/icons/cil-envelope-open.svg"
+			}
+		]
+	},
+	"openTo": {
+		"roles": ["Full Stack Engineer", "Back End Developer", "DevOps Engineer"]
+	},
+	"skills": [
+		{
+			"slug": "typescript",
+			"name": "TypeScript",
+			"category": "pro-lang",
+			"color": "blue",
+			"logo": {
+				"light": "/logos/ts.png",
+				"dark": "/logos/ts.png"
+			},
+			"description": "Strong proficiency in TypeScript for building scalable, type-safe applications across full-stack development.",
+			"shortDescription": "Type-safe JavaScript"
+		},
+		{
+			"slug": "javascript",
+			"name": "JavaScript",
+			"category": "pro-lang",
+			"color": "yellow",
+			"logo": {
+				"light": "/logos/js.png",
+				"dark": "/logos/js.png"
+			},
+			"description": "Core JavaScript expertise used in both frontend and backend development.",
+			"shortDescription": "Core scripting language"
+		},
+		{
+			"slug": "python",
+			"name": "Python",
+			"category": "pro-lang",
+			"color": "blue",
+			"logo": {
+				"light": "/logos/python.png",
+				"dark": "/logos/python.png"
+			},
+			"description": "Python expertise for backend services and automation.",
+			"shortDescription": "Backend scripting"
+		},
+		{
+			"slug": "java",
+			"name": "Java",
+			"category": "pro-lang",
+			"color": "orange",
+			"logo": {
+				"light": "/logos/java.png",
+				"dark": "/logos/java.png"
+			},
+			"description": "Java programming for enterprise applications.",
+			"shortDescription": "Enterprise language"
+		},
+		{
+			"slug": "rust",
+			"name": "Rust",
+			"category": "pro-lang",
+			"color": "orange",
+			"logo": {
+				"light": "/logos/rust.svg",
+				"dark": "/logos/rust.svg"
+			},
+			"description": "Rust for high-performance, memory-safe systems programming.",
+			"shortDescription": "Systems language"
+		},
+		{
+			"slug": "php",
+			"name": "PHP",
+			"category": "pro-lang",
+			"color": "purple",
+			"logo": {
+				"light": "/logos/php.svg",
+				"dark": "/logos/php.svg"
+			},
+			"description": "PHP for backend web development.",
+			"shortDescription": "Web backend"
+		},
+		{
+			"slug": "react",
+			"name": "React.js",
+			"category": "library",
+			"color": "cyan",
+			"logo": {
+				"light": "/logos/react.svg",
+				"dark": "/logos/react.svg"
+			},
+			"description": "Modern React development for building interactive user interfaces.",
+			"shortDescription": "UI library"
+		},
+		{
+			"slug": "angular",
+			"name": "AngularJS",
+			"category": "framework",
+			"color": "red",
+			"logo": {
+				"light": "/logos/angular.png",
+				"dark": "/logos/angular.png"
+			},
+			"description": "AngularJS for full-featured web applications.",
+			"shortDescription": "MVC framework"
+		},
+		{
+			"slug": "vue",
+			"name": "Vue.js",
+			"category": "library",
+			"color": "green",
+			"logo": {
+				"light": "/logos/vue.png",
+				"dark": "/logos/vue.png"
+			},
+			"description": "Vue.js for progressive web application development.",
+			"shortDescription": "Progressive framework"
+		},
+		{
+			"slug": "nextjs",
+			"name": "Next.js",
+			"category": "framework",
+			"color": "blue",
+			"logo": {
+				"light": "/logos/nuxt.png",
+				"dark": "/logos/nuxt.png"
+			},
+			"description": "Next.js for server-side rendering and static generation.",
+			"shortDescription": "React framework"
+		},
+		{
+			"slug": "webgl",
+			"name": "WebGL",
+			"category": "library",
+			"color": "purple",
+			"logo": {
+				"light": "/logos/webgl.svg",
+				"dark": "/logos/webgl.svg"
+			},
+			"description": "WebGL for 3D graphics in the browser.",
+			"shortDescription": "3D graphics"
+		},
+		{
+			"slug": "deckgl",
+			"name": "DeckGL",
+			"category": "library",
+			"color": "purple",
+			"logo": {
+				"light": "/logos/js.png",
+				"dark": "/logos/js.png"
+			},
+			"description": "DeckGL for large-scale visualization.",
+			"shortDescription": "Data visualization"
+		},
+		{
+			"slug": "nodejs",
+			"name": "Node.js",
+			"category": "framework",
+			"color": "green",
+			"logo": {
+				"light": "/logos/node.png",
+				"dark": "/logos/node.png"
+			},
+			"description": "Node.js for server-side JavaScript development.",
+			"shortDescription": "JavaScript runtime"
+		},
+		{
+			"slug": "nestjs",
+			"name": "NestJS",
+			"category": "framework",
+			"color": "red",
+			"logo": {
+				"light": "/logos/nest.svg",
+				"dark": "/logos/nest.svg"
+			},
+			"description": "NestJS for building scalable server-side applications.",
+			"shortDescription": "Node framework"
+		},
+		{
+			"slug": "docker",
+			"name": "Docker",
+			"category": "devops",
+			"color": "blue",
+			"logo": {
+				"light": "/logos/docker.svg",
+				"dark": "/logos/docker.svg"
+			},
+			"description": "Docker containerization for consistent development and deployment.",
+			"shortDescription": "Containerization"
+		},
+		{
+			"slug": "docker-compose",
+			"name": "Docker Compose",
+			"category": "devops",
+			"color": "blue",
+			"logo": {
+				"light": "/logos/docker.svg",
+				"dark": "/logos/docker.svg"
+			},
+			"description": "Docker Compose for multi-container orchestration.",
+			"shortDescription": "Container orchestration"
+		},
+		{
+			"slug": "docker-swarm",
+			"name": "Docker Swarm",
+			"category": "devops",
+			"color": "blue",
+			"logo": {
+				"light": "/logos/docker.svg",
+				"dark": "/logos/docker.svg"
+			},
+			"description": "Docker Swarm for container clustering.",
+			"shortDescription": "Clustering"
+		},
+		{
+			"slug": "cicd",
+			"name": "CI/CD",
+			"category": "devops",
+			"color": "purple",
+			"logo": {
+				"light": "/logos/cicd.svg",
+				"dark": "/logos/cicd.svg"
+			},
+			"description": "Continuous Integration and Deployment pipelines.",
+			"shortDescription": "Automation"
+		},
+		{
+			"slug": "github-actions",
+			"name": "GitHub Actions",
+			"category": "devops",
+			"color": "purple",
+			"logo": {
+				"light": "/logos/github.svg",
+				"dark": "/logos/github.svg"
+			},
+			"description": "GitHub Actions for workflow automation.",
+			"shortDescription": "Workflow automation"
+		},
+		{
+			"slug": "gitlab-ci",
+			"name": "GitLab CI",
+			"category": "devops",
+			"color": "orange",
+			"logo": {
+				"light": "/logos/docker.svg",
+				"dark": "/logos/docker.svg"
+			},
+			"description": "GitLab CI for continuous integration.",
+			"shortDescription": "CI platform"
+		},
+		{
+			"slug": "cloudflare",
+			"name": "Cloudflare",
+			"category": "devops",
+			"color": "orange",
+			"logo": {
+				"light": "/logos/docker.svg",
+				"dark": "/logos/docker.svg"
+			},
+			"description": "Cloudflare for CDN and security.",
+			"shortDescription": "CDN & security"
+		},
+		{
+			"slug": "aws-iam",
+			"name": "AWS IAM",
+			"category": "devops",
+			"color": "orange",
+			"logo": {
+				"light": "/logos/aws.svg",
+				"dark": "/logos/aws.svg"
+			},
+			"description": "AWS Identity and Access Management.",
+			"shortDescription": "AWS security"
+		},
+		{
+			"slug": "aws-lambda",
+			"name": "AWS Lambda",
+			"category": "devops",
+			"color": "orange",
+			"logo": {
+				"light": "/logos/aws.svg",
+				"dark": "/logos/aws.svg"
+			},
+			"description": "AWS Lambda for serverless computing.",
+			"shortDescription": "Serverless"
+		},
+		{
+			"slug": "aws-ec2",
+			"name": "Amazon EC2",
+			"category": "devops",
+			"color": "orange",
+			"logo": {
+				"light": "/logos/aws.svg",
+				"dark": "/logos/aws.svg"
+			},
+			"description": "Amazon EC2 for cloud computing.",
+			"shortDescription": "Cloud servers"
+		},
+		{
+			"slug": "azure",
+			"name": "Azure",
+			"category": "devops",
+			"color": "blue",
+			"logo": {
+				"light": "/logos/azure.svg",
+				"dark": "/logos/azure.svg"
+			},
+			"description": "Microsoft Azure cloud platform.",
+			"shortDescription": "Azure cloud"
+		},
+		{
+			"slug": "arch",
+			"name": "Arch Linux",
+			"category": "devops",
+			"color": "blue",
+			"logo": {
+				"light": "/logos/arch.svg",
+				"dark": "/logos/arch.svg"
+			},
+			"description": "Arch Linux system administration and package management.",
+			"shortDescription": "Arch Linux"
+		},
+		{
+			"slug": "debian",
+			"name": "Debian",
+			"category": "devops",
+			"color": "red",
+			"logo": {
+				"light": "/logos/debian.svg",
+				"dark": "/logos/debian.svg"
+			},
+			"description": "Debian Linux system administration and stability-focused distributions.",
+			"shortDescription": "Debian Linux"
+		},
+		{
+			"slug": "git",
+			"name": "Git",
+			"category": "devtools",
+			"color": "orange",
+			"logo": {
+				"light": "/logos/git.svg",
+				"dark": "/logos/git.svg"
+			},
+			"description": "Version control with Git.",
+			"shortDescription": "Version control"
+		}
+	],
+	"projects": [
+		{
+			"slug": "avakot-org",
+			"name": "Avakot.org",
+			"type": "Community Platform",
+			"color": "#667eea",
+			"logo": {
+				"light": "/logos/no-img.svg",
+				"dark": "/logos/no-img.svg"
+			},
+			"shortDescription": "Community project for Soulframe third-party applications.",
+			"description": "Community project for Soulframe third-party applications. Aggregates and provides hosting for other applications. Built as a central hub for community developers to contribute and share their tools.",
+			"startDate": "2024-08",
+			"endDate": null,
+			"links": [
+				{
+					"label": "Website",
+					"to": "https://avakot.org"
+				}
+			],
+			"skills": ["docker", "project-management"],
+			"screenshots": [
+				{
+					"label": "Homepage",
+					"src": "https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60"
+				}
+			]
+		},
+		{
+			"slug": "soulmap",
+			"name": "Soulmap",
+			"type": "Web Application",
+			"color": "#f093fb",
+			"logo": {
+				"light": "/logos/no-img.svg",
+				"dark": "/logos/no-img.svg"
+			},
+			"shortDescription": "Full-stack mapping application for Soulframe game.",
+			"description": "Full-stack project that employs DeckGL+NextJS for the client and NestJS for the API. Provides a map webapp for the game Soulframe with advanced visualization capabilities and real-time data updates.",
+			"startDate": "2024-08",
+			"endDate": null,
+			"links": [
+				{
+					"label": "Website",
+					"to": "https://soulmap.avakot.org"
+				}
+			],
+			"skills": ["nestjs", "nextjs", "webgl", "deckgl", "typescript"],
+			"screenshots": [
+				{
+					"label": "Map View",
+					"src": "https://images.unsplash.com/photo-1516116216624-53e697fedbea?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60"
+				},
+				{
+					"label": "Data Visualization",
+					"src": "https://images.unsplash.com/photo-1537432376769-00f5c2f4c8d2?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60"
+				}
+			]
+		},
+		{
+			"slug": "buddy-app",
+			"name": "Avakot Buddy App",
+			"type": "Progressive Web App",
+			"color": "#ff6b6b",
+			"logo": {
+				"light": "/logos/no-img.svg",
+				"dark": "/logos/no-img.svg"
+			},
+			"shortDescription": "PWA companion app for Soulframe game with data-driven features.",
+			"description": "Progressive Web App companion for the game Soulframe. Built with Svelte and TypeScript, this app provides data-driven features and enhanced gameplay experience. Learned Svelte through this project.",
+			"startDate": "2024-01",
+			"endDate": null,
+			"links": [
+				{
+					"label": "App",
+					"to": "https://buddy.avakot.org"
+				}
+			],
+			"skills": ["svelte", "typescript"],
+			"screenshots": [
+				{
+					"label": "App Interface",
+					"src": "https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60"
+				}
+			]
+		},
+		{
+			"slug": "avakot-api",
+			"name": "Avakot API",
+			"type": "GraphQL API",
+			"color": "#4ecdc4",
+			"logo": {
+				"light": "/logos/no-img.svg",
+				"dark": "/logos/no-img.svg"
+			},
+			"shortDescription": "GraphQL API powering 90% of Soulframe third-party app development.",
+			"description": "GraphQL API built with TypeScript and Apollo that wraps data from wiki.avakot.org and exposes it in a readable, structured format. Powers 90% of Soulframe third-party application development ecosystem.",
+			"startDate": "2024-01",
+			"endDate": null,
+			"links": [
+				{
+					"label": "API Documentation",
+					"to": "https://api.avakot.org/v1"
+				}
+			],
+			"skills": ["typescript", "nodejs", "graphql", "apollo"],
+			"screenshots": [
+				{
+					"label": "API Explorer",
+					"src": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60"
+				}
+			]
+		},
+		{
+			"slug": "avakot-wiki",
+			"name": "Avakot Wiki",
+			"type": "Community Wiki",
+			"color": "#45b7d1",
+			"logo": {
+				"light": "/logos/no-img.svg",
+				"dark": "/logos/no-img.svg"
+			},
+			"shortDescription": "Community wiki for Soulframe with over 100 contributors.",
+			"description": "Comprehensive wiki for the game Soulframe with over 100 active contributors. As lead and main manager, responsible for community coordination, content strategy, and platform maintenance.",
+			"startDate": "2023-01",
+			"endDate": null,
+			"links": [
+				{
+					"label": "Wiki",
+					"to": "https://wiki.avakot.org"
+				}
+			],
+			"skills": ["php", "python", "javascript", "css", "lua"],
+			"screenshots": [
+				{
+					"label": "Wiki Homepage",
+					"src": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60"
+				}
+			]
+		}
+	],
+	"experience": [
+		{
+			"slug": "sailthrough-lead",
+			"company": "SailThrough English",
+			"name": "Lead Software Engineer",
+			"type": "Software Development",
+			"contract": "Self-employed",
+			"color": "#667eea",
+			"location": "Lisbon, Portugal",
+			"locationType": "Remote",
+			"startDate": "2023-06",
+			"endDate": null,
+			"logo": {
+				"light": "/logos/no-img.svg",
+				"dark": "/logos/no-img.svg"
+			},
+			"shortDescription": "Leading software development with team management and technical architecture.",
+			"description": "Lead Software Engineer responsible for technical architecture, team management, and technology decisions. Overseeing full-stack development projects with focus on scalability and best practices.",
+			"links": [
+				{
+					"label": "Company",
+					"to": "https://sailthrough.example.com"
+				}
+			],
+			"skills": ["react", "angular", "typescript", "rust", "nodejs", "cicd"],
+			"screenshots": []
+		},
+		{
+			"slug": "sailthrough-fullstack",
+			"company": "SailThrough English",
+			"name": "Full-stack Developer",
+			"type": "Software Development",
+			"contract": "Self-employed",
+			"color": "#667eea",
+			"location": "Lisbon, Portugal",
+			"locationType": "Remote",
+			"startDate": "2022-08",
+			"endDate": "2023-06",
+			"logo": {
+				"light": "/logos/no-img.svg",
+				"dark": "/logos/no-img.svg"
+			},
+			"shortDescription": "Full-stack development across Vue and Angular applications.",
+			"description": "Full-stack Developer working on various projects with Vue.js and AngularJS. Implemented CI/CD pipelines and containerized applications with Docker.",
+			"links": [
+				{
+					"label": "Company",
+					"to": "https://sailthrough.example.com"
+				}
+			],
+			"skills": ["vue", "angular", "nodejs", "docker"],
+			"screenshots": []
+		}
+	],
+	"education": [
+		{
+			"slug": "descomplica-bachelor",
+			"name": "Bachelor's degree in Computer Engineering",
+			"organization": "Descomplica Faculdade Digital",
+			"degree": "Bachelor's degree",
+			"fieldOfStudy": "Computer Engineering",
+			"location": "Brazil",
+			"startDate": "2023-09",
+			"endDate": "2026-01",
+			"logo": {
+				"light": "/logos/no-img.svg",
+				"dark": "/logos/no-img.svg"
+			},
+			"shortDescription": "Formal education in Computer Engineering.",
+			"description": "Pursuing a Bachelor's degree in Computer Engineering with focus on Test Automation and Systems Engineering.",
+			"subjects": ["Test Automation", "Engineering", "Algorithms", "Data Structures"],
+			"links": [
+				{
+					"label": "Institution",
+					"to": "https://descomplica.com.br"
+				}
+			],
+			"screenshots": []
+		}
+	],
+	"certifications": [
+		{
+			"name": "Introduction to Cloud Computing on AWS for Beginners",
+			"issuer": "Udemy",
+			"issueDate": "2023-03",
+			"credentialId": "UC-288f71df-dbd4-45f0-b759-e11c6c8177d4",
+			"skills": ["aws-iam", "aws-lambda", "aws-ec2"]
+		},
+		{
+			"name": "Linux Administration: The Complete Linux Bootcamp",
+			"issuer": "Udemy",
+			"issueDate": "2023-03",
+			"credentialId": "UC-e418cef8-d84e-4e50-b4c9-687908d2457f",
+			"skills": ["arch", "debian"]
+		},
+		{
+			"name": "Git completo: Do Básico ao Avançado",
+			"issuer": "Udemy",
+			"skills": ["git"]
+		},
+		{
+			"name": "Docker: A Beginner's Guide From Container to Swarm",
+			"issuer": "Udemy",
+			"skills": ["docker", "docker-compose", "docker-swarm"]
+		}
+	],
+	"skillCategories": [
+		{
+			"slug": "pro-lang",
+			"name": "Programming Languages"
+		},
+		{
+			"slug": "framework",
+			"name": "Frameworks"
+		},
+		{
+			"slug": "library",
+			"name": "Libraries"
+		},
+		{
+			"slug": "devops",
+			"name": "DevOps"
+		},
+		{
+			"slug": "devtools",
+			"name": "Dev Tools"
+		}
+	]
+}
