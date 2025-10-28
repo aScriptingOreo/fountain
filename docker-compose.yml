@@ -10,6 +10,7 @@ services:
       - "traefik.http.routers.fountain.rule=Host(`oreo.7thseraph.org`)"
       - "traefik.http.routers.fountain.entrypoints=https"
       - "traefik.http.routers.fountain.tls.certresolver=letsencrypt"
+      - "traefik.http.services.fountain.loadbalancer.server.port=3000"
       - "traefik.http.routers.fountain-http.rule=Host(`oreo.7thseraph.org`)"
       - "traefik.http.routers.fountain-http.entrypoints=http"
       - "traefik.http.routers.fountain-http.middlewares=redirect-to-https"
