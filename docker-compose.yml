@@ -3,6 +3,11 @@ version: '3.8'
 services:
   fountain:
     build: .
+    volumes:
+      - ./packages.json:/app/packages.json
+      - ./vite.config.ts:/app/vite.config.ts
+      - ./tsconfig.json:/app/tsconfig.json
+      - ./src/lib/data/master.json:/app/src/lib/data/master.json
     networks:
       - proxy
     labels:
