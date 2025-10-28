@@ -5,7 +5,7 @@
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
-		"preview": "vite preview",
+		"preview": "vite preview --port 3000",
 		"deploy:wrangler": "wrangler pages deploy build --project-name fountain --branch main",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
@@ -56,6 +56,7 @@
 	},
 	"dependencies": {
 		"@coreui/icons": "^3.0.1",
-		"@iconify-json/lucide": "^1.2.70"
+		"@iconify-json/lucide": "^1.2.70",
+		"knip": "^5.66.4"
 	}
 }

@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  fountain:
+    build: .
+    networks:
+      - proxy
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.fountain.rule=Host(`oreo.7thseraph.org`)"
+      - "traefik.http.routers.fountain.entrypoints=https"
+      - "traefik.http.routers.fountain.tls.certresolver=letsencrypt"
+      - "traefik.http.routers.fountain-http.rule=Host(`oreo.7thseraph.org`)"
+      - "traefik.http.routers.fountain-http.entrypoints=http"
+      - "traefik.http.routers.fountain-http.middlewares=redirect-to-https"
+      - "traefik.http.middlewares.redirect-to-https.redirectscheme.scheme=https"
+      - "traefik.http.middlewares.redirect-to-https.redirectscheme.permanent=true"
+
+networks:
+  proxy:
+    external: true
