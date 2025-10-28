@@ -7,7 +7,4 @@
   "compatibility_date": "2025-10-28",
   "project_name": "fountain",
   "pages_build_output_dir": "dist",
-  "assets": {
-    "directory": "./dist"
-  }
 }
