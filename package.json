@@ -6,6 +6,7 @@
 		"dev": "vite dev",
 		"build": "vite build",
 		"preview": "vite preview",
+		"deploy:wrangler": "wrangler pages publish dist --project-name fountain --branch main",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"format": "prettier --write .",
@@ -47,6 +48,10 @@
 		"typescript-eslint": "^8.0.0",
 		"unocss": "^66.5.2",
 		"vite": "^7.1.9"
+	},
+	"devDependencies-meta": {
+		"note": "wrangler is intentionally not installed automatically by this patch — run bun add -d wrangler to add it (or use bunx to run without installing). Add to devDependencies if you prefer automatic install.",
+		"recommended-wrangler": "bun add -d wrangler"
 	},
 	"dependencies": {
 		"@coreui/icons": "^3.0.1",

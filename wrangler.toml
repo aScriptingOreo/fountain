@@ -1,0 +1,7 @@
+# Wrangler config for Cloudflare Pages / Workers
+name = "fountain"
+account_id = "ec8f9b0dad2048d2d26c65ea6680a056"
+compatibility_date = "2025-10-28"
+
+[build]
+command = "bun run build"
