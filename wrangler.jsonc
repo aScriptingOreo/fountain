@@ -5,6 +5,5 @@
   // The `pages_build_output_dir` field is required by the Pages integration.
   "name": "fountain",
   "compatibility_date": "2025-10-28",
-  "project_name": "fountain",
-  "pages_build_output_dir": "dist",
+  "pages_build_output_dir": "build"
 }

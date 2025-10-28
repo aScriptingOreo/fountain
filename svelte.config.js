@@ -12,7 +12,7 @@ const config = {
 	kit: {
 		// Use adapter-static and write the static site to `dist` so deployment tools
 		// (like Cloudflare Pages / Wrangler) can publish the directory directly.
-		adapter: adapter({ pages: 'dist', assets: 'dist', fallback: '404.html' }),
+		adapter: adapter({ pages: 'build', assets: 'build', fallback: '404.html' }),
 		paths: {
 			base: process.env.NODE_ENV === 'production' ? base : ''
 		}
