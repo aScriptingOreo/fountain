@@ -10,10 +10,9 @@ const config = {
 	preprocess: vitePreprocess(),
 
 	kit: {
-		// adapter-auto only supports some environments, see https://svelte.dev/docs/kit/adapter-auto for a list.
-		// If your environment is not supported, or you settled on a specific environment, switch out the adapter.
-		// See https://svelte.dev/docs/kit/adapters for more information about adapters.
-		adapter: adapter({ fallback: '404.html' }),
+		// Use adapter-static and write the static site to `dist` so deployment tools
+		// (like Cloudflare Pages / Wrangler) can publish the directory directly.
+		adapter: adapter({ pages: 'dist', assets: 'dist', fallback: '404.html' }),
 		paths: {
 			base: process.env.NODE_ENV === 'production' ? base : ''
 		}

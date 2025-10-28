@@ -1,0 +1,10 @@
+{
+  // This file allows `npx wrangler deploy` to upload a directory of static assets
+  // instead of trying to deploy a Worker entrypoint. CI used `npx wrangler deploy` and
+  // failed because it couldn't find a Worker entrypoint.
+  "name": "fountain",
+  "compatibility_date": "2025-10-28",
+  "assets": {
+    "directory": "./dist"
+  }
+}
