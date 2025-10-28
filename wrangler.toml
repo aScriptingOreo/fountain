@@ -1,4 +1,0 @@
-# Wrangler config for Cloudflare Pages
-name = "fountain"
-account_id = "ec8f9b0dad2048d2d26c65ea6680a056"
-pages_build_output_dir = "build"

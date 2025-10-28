@@ -1,9 +1,0 @@
-
-{
-  // This file allows `npx wrangler deploy` (and the Pages deploy flow) to upload
-  // a directory of static assets instead of trying to deploy a Worker entrypoint.
-  // The `pages_build_output_dir` field is required by the Pages integration.
-  "name": "fountain",
-  "compatibility_date": "2025-10-28",
-  "pages_build_output_dir": "build"
-}
