@@ -51,6 +51,9 @@
 	"dependencies": {
 		"@coreui/icons": "^3.0.1",
 		"@iconify-json/lucide": "^1.2.70",
-		"knip": "^5.66.4"
+		"knip": "^5.66.4",
+		"pdfkit": "^0.13.0",
+		"dotenv": "17.2.3",
+		"@google/genai": "1.28.0"
 	}
 }

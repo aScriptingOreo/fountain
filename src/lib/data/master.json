@@ -6,7 +6,10 @@
 		"pronouns": "Ele/Dele",
 		"location": "Lisbon, Portugal",
 		"bio": "Just your regular Software Engineer living the dream",
-		"suffix": "Full Stack Developer | DevOps Enthusiast | Rust Lover"
+		"suffix": "Full Stack Developer | DevOps Enthusiast | Rust Lover",
+		"github": "https://github.com/aScriptingOreo",
+		"linkedin": "https://linkedin.com/in/aHappyOreo",
+		"email": "ksls56@hotmail.com"
 	},
 	"hero": {
 		"title": "Davi Sales,",
@@ -19,7 +22,7 @@
 			},
 			{
 				"label": "LinkedIn",
-				"href": "https://linkedin.com/in/aScriptingOreo",
+				"href": "https://linkedin.com/in/aHappyOreo",
 				"icon": "/icons/cib-linkedin.svg"
 			},
 			{
